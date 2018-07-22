@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kyc_item_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_10"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.telvo.telvoterminaladmin.shop.ShopMainActivity">
+
+    <TextView
+        android:id="@+id/text_view_shop_master_item_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_white_master_item"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="@dimen/padding_10"
+        android:text="@string/home"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_24" />
+
+    <TextView
+        android:id="@+id/text_view_shop_master_item_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@drawable/bg_red_master_item"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="@dimen/padding_10"
+        android:text="@string/history"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_24" />
+
+</LinearLayout>

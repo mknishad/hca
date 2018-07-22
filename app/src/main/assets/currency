@@ -1,0 +1,83 @@
+{
+   "CcyNtry":[
+   {
+            "CtryNm":"BANGLADESH",
+            "CcyNm":"Taka",
+            "Ccy":"BDT",
+            "CcyNbr":"050",
+            "CcyMnrUnts":"2"
+         },
+         {
+                  "CtryNm":"UNITED STATES OF AMERICA (THE)",
+                  "CcyNm":"US Dollar",
+                  "Ccy":"USD",
+                  "CcyNbr":"840",
+                  "CcyMnrUnts":"2"
+               },
+   {
+            "CtryNm":"ANDORRA",
+            "CcyNm":"Euro",
+            "Ccy":"EUR",
+            "CcyNbr":"978",
+            "CcyMnrUnts":"2"
+         },
+         {
+                  "CtryNm":"GUERNSEY",
+                  "CcyNm":"Pound Sterling",
+                  "Ccy":"GBP",
+                  "CcyNbr":"826",
+                  "CcyMnrUnts":"2"
+          },
+               {
+                        "CtryNm":"AUSTRALIA",
+                        "CcyNm":"Australian Dollar",
+                        "Ccy":"AUD",
+                        "CcyNbr":"036",
+                        "CcyMnrUnts":"2"
+                     },
+       {
+                "CtryNm":"JAPAN",
+                "CcyNm":"Yen",
+                "Ccy":"JPY",
+                "CcyNbr":"392",
+                "CcyMnrUnts":"0"
+             },
+       {
+                "CtryNm":"CANADA",
+                "CcyNm":"Canadian Dollar",
+                "Ccy":"CAD",
+                "CcyNbr":"124",
+                "CcyMnrUnts":"2"
+             },
+        {
+                "CtryNm":"SWEDEN",
+                "CcyNm":"Swedish Krona",
+                "Ccy":"SEK",
+                "CcyNbr":"752",
+                "CcyMnrUnts":"2"
+             },
+
+       {
+                "CtryNm":"SINGAPORE",
+                "CcyNm":"Singapore Dollar",
+                "Ccy":"SGD",
+                "CcyNbr":"702",
+                "CcyMnrUnts":"2"
+             },
+{
+         "CtryNm":"CHINA",
+         "CcyNm":"Chinese yuan",
+         "Ccy":"CNY",
+         "CcyNbr":"156",
+         "CcyMnrUnts":"2"
+      },
+
+{
+         "CtryNm":"INDIA",
+         "CcyNm":"Indian Rupee",
+         "Ccy":"INR",
+         "CcyNbr":"356",
+         "CcyMnrUnts":"2"
+      }
+   ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FB4747</color>
+    <color name="colorPrimaryDark">#D63535</color>
+    <color name="colorAccent">#D63535</color>
+    <color name="colorText">#888888</color>
+    <color name="colorHistoryItem">#FACBD6</color>
+    <color name="colorHistorySeparator">#BBBBBB</color>
+    <color name="colorWhite">@android:color/white</color>
+</resources>

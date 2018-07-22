@@ -1,0 +1,129 @@
+{
+  "project_info": {
+    "project_number": "303118522941",
+    "firebase_url": "https://api-7565199052712466089-614756.firebaseio.com",
+    "project_id": "api-7565199052712466089-614756",
+    "storage_bucket": "api-7565199052712466089-614756.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303118522941:android:1e1de1a3d0aec2f3",
+        "android_client_info": {
+          "package_name": "telvoterminal.telvo.com.terminal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303118522941-ftfufp50obfcr9r12v1eodh5mp6sl9dv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "303118522941-aqmu3fc5kt2ar15nkvoca75uqpfff2fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC2C810i7Q3qBH8RGRFpCw4e9NuR1G3us"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303118522941:android:48c008b16043d97e",
+        "android_client_info": {
+          "package_name": "com.telvo.telvo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303118522941-dof51gd62kcan7773puek663smtin8sk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.telvo.telvo",
+            "certificate_hash": "2f9f020010ba02c51d4ac1b0f0865a47dec1c477"
+          }
+        },
+        {
+          "client_id": "303118522941-ftfufp50obfcr9r12v1eodh5mp6sl9dv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "303118522941-aqmu3fc5kt2ar15nkvoca75uqpfff2fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC2C810i7Q3qBH8RGRFpCw4e9NuR1G3us"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303118522941-ftfufp50obfcr9r12v1eodh5mp6sl9dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303118522941:android:db9df83f043feb46",
+        "android_client_info": {
+          "package_name": "com.telvo.telvoterminaladmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303118522941-ftfufp50obfcr9r12v1eodh5mp6sl9dv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "303118522941-aqmu3fc5kt2ar15nkvoca75uqpfff2fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC2C810i7Q3qBH8RGRFpCw4e9NuR1G3us"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

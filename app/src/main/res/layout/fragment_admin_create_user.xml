@@ -1,0 +1,560 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.telvo.telvoterminaladmin.admin.AdminCreateUserFragment">
+
+    <!-- layout with button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16">
+
+        <!-- layout without button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <!-- left layout -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_border_red"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_red_cell_header"
+                        android:gravity="center_horizontal"
+                        android:text="@string/personal_info"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_24" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp">
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:id="@+id/circularImageView"
+                            android:layout_width="104dp"
+                            android:layout_height="108dp"
+                            android:src="@drawable/ic_home_user_photo" />
+
+                        <ImageView
+                            android:id="@+id/uploadPhotoImageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:contentDescription="@string/user_image"
+                            android:src="@android:drawable/ic_menu_camera" />
+                    </RelativeLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/userNameEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/name"
+                            tools:text="Nishad Khan"
+                            android:inputType="textPersonName" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/userPhoneEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/phone_number"
+                            tools:text="01709990244"
+                            android:inputType="phone" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/emailEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/email"
+                            tools:text="nishad@gmail.com"
+                            android:inputType="textEmailAddress" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/fatherNameEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/father_name"
+                            tools:text="AR Khan"
+                            android:inputType="textPersonName" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/motherNameEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/mother_name"
+                            tools:text="NE Khan"
+                            android:inputType="textPersonName" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/spouseNameEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/spouse_name"
+                            tools:text="NA Khan"
+                            android:inputType="textPersonName" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Spinner
+                        android:id="@+id/nationalitySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_8"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:background="@drawable/bg_spinner" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4"
+                        android:layout_marginTop="@dimen/margin_8">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.telvo.telvoterminaladmin.util.DatePicker
+                                android:id="@+id/dateOfBirthEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:enabled="false"
+                                android:hint="@string/date_of_birth"
+                                tools:text="October 15, 1992"
+                                android:inputType="text"
+                                android:textColor="@android:color/black" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <ImageView
+                            android:id="@+id/calendarImageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/margin_8"
+                            android:layout_marginRight="@dimen/margin_8"
+                            android:src="@drawable/ic_calendar" />
+                    </RelativeLayout>
+
+                    <RadioGroup
+                        android:id="@+id/genderRadioGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:checkedButton="@+id/maleRadioButton"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/maleRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/male" />
+
+                        <RadioButton
+                            android:id="@+id/femaleRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_8"
+                            android:layout_marginStart="@dimen/margin_8"
+                            android:text="@string/female" />
+                    </RadioGroup>
+
+                    <RadioGroup
+                        android:id="@+id/authenticationTypeRadioGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/nationalIdRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="@string/national_id" />
+
+                        <RadioButton
+                            android:id="@+id/passportNoRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_8"
+                            android:layout_marginStart="@dimen/margin_8"
+                            android:text="@string/passport_number" />
+                    </RadioGroup>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/authenticationNumberEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8"
+                            android:hint="@string/national_id"
+                            tools:text="19925612271000062"
+                            android:inputType="number"
+                            android:maxLines="1" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <ImageView
+                        android:id="@+id/signatureImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginBottom="@dimen/margin_8"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/signature"
+                        android:src="@drawable/ic_signature" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- right layout -->
+            <LinearLayout
+                android:layout_marginLeft="@dimen/margin_8"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/margin_8">
+
+                <!-- present address -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_border_red"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_red_cell_header"
+                        android:gravity="center_horizontal"
+                        android:text="@string/present_address"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_24" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/presentAddressEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/address"
+                            tools:text="Nikunja"
+                            android:inputType="text" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/presentCityEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/city"
+                            tools:text="Dhaka"
+                            android:inputType="text" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/presentPostalCodeEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/postal_code"
+                            tools:text="1229"
+                            android:inputType="number" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Spinner
+                        android:id="@+id/presentCountrySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_8"
+                        android:layout_marginLeft="@dimen/margin_8"
+                        android:layout_marginRight="@dimen/margin_8"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:background="@drawable/bg_spinner" />
+                </LinearLayout>
+
+                <!-- permanent address -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:background="@drawable/bg_border_red"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_red_cell_header"
+                        android:gravity="center_horizontal"
+                        android:text="@string/permanent_address"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_24" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/permanentAddressEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/address"
+                            tools:text="Nikunja"
+                            android:inputType="text" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/permanentCityEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/city"
+                            tools:text="Dhaka"
+                            android:inputType="text" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4">
+
+                        <EditText
+                            android:id="@+id/permanentPostalCodeEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/postal_code"
+                            tools:text="1229"
+                            android:inputType="number" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Spinner
+                        android:id="@+id/permanentCountrySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_8"
+                        android:layout_marginLeft="@dimen/margin_8"
+                        android:layout_marginRight="@dimen/margin_8"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:background="@drawable/bg_spinner" />
+                </LinearLayout>
+
+                <!-- currency -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:background="@drawable/bg_border_red"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_red_cell_header"
+                        android:gravity="center_horizontal"
+                        android:text="@string/currency"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_24" />
+
+                    <Spinner
+                        android:id="@+id/currencySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_8"
+                        android:layout_marginLeft="@dimen/margin_8"
+                        android:layout_marginRight="@dimen/margin_8"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:background="@drawable/bg_spinner" />
+                </LinearLayout>
+
+                <!-- introducer -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:background="@drawable/bg_border_red"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_red_cell_header"
+                        android:gravity="center_horizontal"
+                        android:text="@string/introducer"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_24" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/introducerNameEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/name"
+                            tools:text="Monir Hossain"
+                            android:inputType="textPersonName" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4"
+                        android:layout_marginBottom="@dimen/margin_8"
+                        android:orientation="horizontal">
+
+                        <com.hbb20.CountryCodePicker
+                            android:id="@+id/countryCodePicker"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="bottom"
+                            android:paddingBottom="3dp"
+                            app:ccp_defaultNameCode="BD"
+                            app:ccp_showNameCode="false" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/introducerPhoneNumberEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/phone_number"
+                                tools:text="1706466628"
+                                android:inputType="phone" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_marginLeft="@dimen/margin_4"
+                        android:layout_marginRight="@dimen/margin_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/introducerRelationEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/relation"
+                            tools:text="Self"
+                            android:inputType="textPersonName"
+                            android:textColor="@android:color/black" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_16"
+            android:background="@drawable/bg_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_24" />
+    </LinearLayout>
+</ScrollView>

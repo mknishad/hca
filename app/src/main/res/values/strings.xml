@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Telvo Terminal Admin</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="home">Home</string>
+    <string name="recharge">Recharge</string>
+    <string name="payment">Payment</string>
+    <string name="deposit">Deposit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="earn">Earn</string>
+    <string name="total">Total</string>
+    <string name="today">Today</string>
+    <string name="history">History</string>
+    <string name="date">Date</string>
+    <string name="amount">Amount</string>
+    <string name="mobile">Mobile</string>
+    <string name="operator">Operator</string>
+    <string name="recharge_user_account">Recharge User Account</string>
+    <string name="submit">Submit</string>
+    <string name="pay_to_user">Pay To User</string>
+    <string name="sms_verification">SMS Verification</string>
+    <string name="cancel">Cancel</string>
+    <string name="verify">Verify</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="kyc">KYC</string>
+    <string name="abdur_rahim">Abdur Rahim</string>
+    <string name="father_name">Father Name</string>
+    <string name="mother_name">Mother Name</string>
+    <string name="spouse_name">Spouse Name</string>
+    <string name="nationality">Nationality</string>
+    <string name="bangladeshi">Bangladeshi</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="sample_date">11-11-2011</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="occupation">Occupation</string>
+    <string name="student">Student</string>
+    <string name="national_id">National ID</string>
+    <string name="sample_national_id">1154265448568</string>
+    <string name="present_address">Present Address</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="dhaka">Dhaka</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="sample_postal_code">1212</string>
+    <string name="country">Country</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="permanent_address">Permanent Address</string>
+    <string name="introducer">Introducer</string>
+    <string name="name">Name</string>
+    <string name="sample_mobile_number">0123456789</string>
+    <string name="personal">Personal</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="sample_address">43 Mohakhali, C/A</string>
+    <string name="email">Email</string>
+    <string name="smaple_email">email@email.com</string>
+
+    <string-array name="sort_by">
+        <item>Sort By</item>
+        <item>Date</item>
+        <item>Amount</item>
+        <item>Mobile Number</item>
+    </string-array>
+
+    <string name="shop">Shop</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="generate">Generate</string>
+    <string name="transactions">Transactions</string>
+    <string name="delivered">Delivered</string>
+    <string name="pending">Pending</string>
+    <string name="location">Location</string>
+    <string name="sample_location">Dhaka - Mohakhali</string>
+    <string name="print">Print</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="currency">Currency</string>
+    <string name="done">Done</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="request_verification">Request Verification</string>
+    <string name="security_code">Security Code</string>
+    <string name="sample_code">123456</string>
+    <string name="success">Success!</string>
+    <string name="logout">Log Out</string>
+    <string name="balance">Balance</string>
+    <string name="commission">Commission</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="pending_home_withdraw">Pending Home Withdraw</string>
+    <string name="withdraw_verification">Withdraw Verification</string>
+    <string name="home_withdraw">Home Withdraw</string>
+    <string name="deposit_agent">Deposit Agent</string>
+    <string name="withdraw_agent">Withdraw Agent</string>
+    <string name="withdraw_shop">Withdraw Shop</string>
+    <string name="home_request">Home Request</string>
+    <string name="start_date">Start Date:</string>
+    <string name="end_date">End Date:</string>
+    <string name="unable_to_connect">Unable to connect to the server!</string>
+    <string name="on_failure">onFailure: </string>
+    <string name="withdraw_type">Withdraw Type</string>
+    <string name="area">Area</string>
+    <string name="back">Back</string>
+    <string name="please_enter_mobile_number">Please enter mobile number</string>
+    <string name="please_enter_security_code">Please enter security code</string>
+    <string name="please_enter_amount">Please enter amount</string>
+    <string name="please_enter_nid_number">Please enter NID number</string>
+    <string name="please_select_currency">Please select currency</string>
+    <string name="please_select_start_date">Please select start date</string>
+    <string name="please_select_end_date">Please select end date</string>
+    <string name="please_enter_verification_code">Please enter verification code</string>
+    <string name="please_select_role">Please select role</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="exit_title">Exit</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="image_view">ImageView</string>
+    <string name="create_user">Create User</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="user_image">User Image</string>
+    <string name="female">Female</string>
+    <string name="passport_number">Passport No.</string>
+    <string name="signature">Signature</string>
+    <string name="address_line_1">Address Line 1</string>
+    <string name="address_line_2">Address Line 2</string>
+    <string name="non_system_withdraw">Non System Withdraw</string>
+    <string name="secret_code">Secret Code</string>
+    <string name="please_enter_withdraw_secret">Please enter withdraw secret</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="signature_upload_message">Write your signature in white paper and capture it via camera or select from image gallery</string>
+    <string name="relation">Relation</string>
+    <string name="select_currency">Select currency</string>
+    <string name="select_country">Select country</string>
+    <string name="select_a_country">Select a country</string>
+    <string name="please_add_user_image">Please add user image</string>
+    <string name="please_add_signature_image">Please add signature image</string>
+    <string name="please_enter_user_name">Please enter user name</string>
+    <string name="please_enter_user_phone">Please enter user phone number</string>
+    <string name="please_enter_user_email">Please enter user email</string>
+    <string name="please_enter_father_name">Please enter father name</string>
+    <string name="please_enter_mother_name">Please enter mother name</string>
+    <string name="please_enter_spouse_name">Please enter spouse name</string>
+    <string name="please_select_nationality">Please select nationality</string>
+    <string name="please_enter_date_of_birth">Please enter date of birth</string>
+    <string name="please_select_gender">Please select gender</string>
+    <string name="please_enter_nid_or_passport_no">Please enter NID or passport number</string>
+    <string name="please_enter_present_address">Please enter present address</string>
+    <string name="please_enter_present_city">Please enter present city</string>
+    <string name="please_enter_present_postal_code">Please enter present postal code</string>
+    <string name="please_select_present_country">Please select present country</string>
+    <string name="please_enter_permanent_address">Please enter permanent address</string>
+    <string name="please_enter_permanent_city">Please enter permanent city</string>
+    <string name="please_enter_permanent_postal_code">Please enter permanent postal code</string>
+    <string name="please_select_permanent_country">Please select permanent country</string>
+    <string name="please_enter_introducer_name">Please enter introducer name</string>
+    <string name="please_enter_introducer_phone_no">Please enter introducer phone number</string>
+    <string name="please_enter_introducer_relation">Please enter introducer relation</string>
+
+    <string-array name="admin_type_array">
+        <item>Select Role </item>
+        <item>Admin </item>
+        <item>Agent </item>
+        <item>Shop </item>
+    </string-array>
+
+    <string-array name="nationality_array">
+        <item>Select nationality </item>
+        <item>Bangladeshi </item>
+        <item>Indian </item>
+        <item>Pakistani </item>
+        <item>Chinese </item>
+        <item>Saudi Arabian </item>
+        <item>Japanese </item>
+        <item>Australian </item>
+        <item>English </item>
+    </string-array>
+</resources>

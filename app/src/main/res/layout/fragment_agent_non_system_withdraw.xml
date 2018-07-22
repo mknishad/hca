@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.telvo.telvoterminaladmin.agent.AgentNonSystemWithdrawFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="480dp"
+                android:layout_height="56dp"
+                android:background="@drawable/bg_red_round"
+                android:gravity="center"
+                android:padding="@dimen/padding_4"
+                android:text="@string/non_system_withdraw"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_32" />
+
+            <LinearLayout
+                android:layout_width="480dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/bg_red_round"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_4"
+                    android:padding="@dimen/padding_5"
+                    android:text="@string/mobile_number"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_24" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/bg_white">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/padding_4"
+                        android:background="@drawable/bg_white"
+                        android:enabled="false"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="2dp"
+                        android:text="88"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_24" />
+
+                    <EditText
+                        android:id="@+id/edit_text_withdraw_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_white"
+                        android:hint="XXXXXXXXXXX"
+                        android:inputType="phone"
+                        android:textSize="@dimen/text_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="480dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/bg_red_round"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_4"
+                    android:padding="@dimen/padding_5"
+                    android:text="@string/national_id"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_24"
+                    android:layout_marginStart="@dimen/margin_4" />
+
+                <EditText
+                    android:id="@+id/edit_text_withdraw_nid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_marginLeft="@dimen/padding_4"
+                    android:background="@drawable/bg_white"
+                    android:hint="XXXXXXXXXXXXX"
+                    android:inputType="number"
+                    android:padding="@dimen/padding_10"
+                    android:textSize="@dimen/text_24"
+                    android:layout_marginStart="@dimen/padding_4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="480dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/bg_red_round"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_4"
+                    android:padding="@dimen/padding_5"
+                    android:text="@string/secret_code"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_24"
+                    android:layout_marginStart="@dimen/margin_4" />
+
+                <EditText
+                    android:id="@+id/edit_text_withdraw_secret"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_marginLeft="@dimen/padding_4"
+                    android:background="@drawable/bg_white"
+                    android:hint="XXXXXX"
+                    android:inputType="number"
+                    android:padding="@dimen/padding_10"
+                    android:textSize="@dimen/text_24"
+                    android:layout_marginStart="@dimen/padding_4" />
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_submit_withdraw"
+                android:layout_width="212dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_16"
+                android:background="@drawable/bg_button"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="@string/submit"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_32" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

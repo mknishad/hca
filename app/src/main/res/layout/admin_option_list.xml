@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kyc_item_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_10"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.telvo.telvoterminaladmin.shop.ShopMainActivity">
+
+    <TextView
+        android:id="@+id/text_view_master_item_home"
+        android:background="@drawable/bg_white_master_item"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="@dimen/padding_10"
+        android:layout_marginTop="60dp"
+        android:text="@string/home"
+        android:textSize="@dimen/text_24"
+        android:textColor="@color/colorText"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_view_master_item_home_withdraw"
+        android:background="@drawable/bg_red_master_item"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="@dimen/padding_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="@string/home_withdraw"
+        android:textSize="@dimen/text_24"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_view_master_item_deposit_agent"
+        android:background="@drawable/bg_red_master_item"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="@dimen/padding_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="@string/deposit_agent"
+        android:textSize="@dimen/text_24"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_view_master_item_withdraw_agent"
+        android:background="@drawable/bg_red_master_item"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="@dimen/padding_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="@string/withdraw_agent"
+        android:textSize="@dimen/text_24"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_view_master_item_withdraw_shop"
+        android:background="@drawable/bg_red_master_item"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="@dimen/padding_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="@string/withdraw_shop"
+        android:textSize="@dimen/text_24"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_view_master_item_create_user"
+        android:background="@drawable/bg_red_master_item"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="@dimen/padding_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="@string/create_user"
+        android:textSize="@dimen/text_24"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_view_master_item_history"
+        android:background="@drawable/bg_red_master_item"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="@dimen/padding_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="@string/history"
+        android:textSize="@dimen/text_24"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+</LinearLayout>
